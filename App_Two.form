@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.knox.App_Two">
+  <grid id="27dc6" binding="framePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f569a" class="javax.swing.JLabel" binding="counterLabel">
+        <constraints/>
+        <properties>
+          <text value="Counter"/>
+        </properties>
+      </component>
+      <component id="a74d0" class="javax.swing.JTextField" binding="resultsField">
+        <constraints/>
+        <properties>
+          <columns value="8"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="ec7cb" class="javax.swing.JButton" binding="countUpButton">
+        <constraints/>
+        <properties>
+          <text value="count Up"/>
+        </properties>
+      </component>
+      <component id="72c9c" class="javax.swing.JButton" binding="countDownButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="count Down"/>
+        </properties>
+      </component>
+      <component id="781fe" class="javax.swing.JButton" binding="resetButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Reset"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
